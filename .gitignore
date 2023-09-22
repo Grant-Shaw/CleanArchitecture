@@ -1,0 +1,11 @@
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore user-specific files
+.vscode/
+.DS_Store
+.idea/
+
+# Ignore sensitive data
+secret.txt
