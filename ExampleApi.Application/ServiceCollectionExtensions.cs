@@ -10,5 +10,4 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IAuthenticationService, AuthenticationService>();
         return services;
     }
-
 }

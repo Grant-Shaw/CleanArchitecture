@@ -19,7 +19,6 @@ public class AuthenticationController : ControllerBase
     public IActionResult Register(RegisterRequest request)
     {
         var registerResult = _authService.Register(request.FirstName, request.LastName, request.Email, request.Password);
-
         return Ok(registerResult);
     }
 
