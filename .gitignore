@@ -6,6 +6,7 @@ obj/
 .vscode/
 .DS_Store
 .idea/
+.vs/
 
 # Ignore sensitive data
 secret.txt
